@@ -3,12 +3,14 @@ body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
 }
+
 .header {
     padding: 20px;
     background: #2c3e50;
     color: white;
     text-align: center;
 }
+
 .btn {
     padding: 10px 20px;
     cursor: pointer;
@@ -18,8 +20,39 @@ body {
     border-radius: 6px;
     transition: 0.3s;
 }
-.btn:hover { opacity: 0.8; }
-.btn.danger { background: #e74c3c; }
-.modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%;
- background:rgba(0,0,0,0.6); justify-content:center; align-items:center;}
-.modal-content { padding:20px; background:#fff; border-radius:8px; width:300px;}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn.danger {
+    background: #e74c3c;
+}
+
+/* Posts */
+.posts h3 {
+    margin: 10px 0 5px;
+}
+.posts p {
+    color: #333;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    width: 300px;
+}
